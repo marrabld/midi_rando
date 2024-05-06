@@ -1,0 +1,8 @@
+settings:
+  channel: 0          # MIDI channel for drums, typically channel 10 (0-indexed as 9)
+  note: 36            # Standard MIDI note for kick drum
+  randomness: 5      # Maximum deviation from the base velocity
+bias:
+  amount: 10          # Amount by which to increase the velocity
+  frequency: 2        # Apply the bias every 'frequency' beats
+
